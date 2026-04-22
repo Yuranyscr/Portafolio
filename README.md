@@ -1,6 +1,6 @@
  <!-- #PORTAFOLIO WEB- Yuranys Paola Castro Ruiz.
 #Descripción.
-En este proyecto corresponde al desarrollo de la creación de un portafolio web perosonal, usuando el estándar de HTML5 y orientado con respecto a mi perfin prosefional.Este sitio se evidencia las compentencias técnicas, y experiencias con respecto a mi proyección en caunto al ambito del Desarrollo de Software  con enfasisi durante mis practicas en el área de Frontend que fue una experiencia muy enriquesedora.
+En este proyecto corresponde al desarrollo de la creación de un portafolio web perosonal, usuando el estándar de HTML5 y orientado con respecto a mi perfil  prosefional.Este sitio se evidencia las compentencias técnicas, y experiencias con respecto a mi proyección en cuanto al ambito del Desarrollo de Software  con enfasi durante mis practicas en el área de Frontend que fue una experiencia muy enriquesedora.
 
 #Objetivos del proyecto.
 #*Disñar una sitio Web funcional, semantica y accesible.
