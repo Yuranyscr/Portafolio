@@ -1,3 +1,41 @@
-.sobre-mi h2{
+.sobre-mi  {
+ flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+    gap: 2rem;
+    
+
+}
+.sobre-mi h2 {
     color: var(--color-primary);
+}
+.contenedor-Sobre-mi {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+.ubicacion-proyecto{
+flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+
+}
+.proyectos-portafolio{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: calc(100vh - 104px);
+    gap: 2rem;
+
+
+}
+.fecha-rol p{
+   padding: auto;
+
 }
