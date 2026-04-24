@@ -10,7 +10,7 @@
 
 .mascotas-container-card {
     padding: 1rem;
-    border: solid;
+    box-shadow:0 0 15px rgba(209, 136 ,79);
 }
 
 .mascotas-titulo {

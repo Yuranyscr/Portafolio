@@ -1,0 +1,18 @@
+.grid-proyectos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* dos columnas */
+    gap: 30px; /* espacio entre columnas */
+}
+
+.puesto {
+    padding: 20px;
+    border-radius: 10px;
+}
+.puesto img {
+    width: 120px;              /* tamaño del logo */
+    height: 120px;             /* forma cuadrada */
+    object-fit: contain;       /* mantiene proporción sin deformar */
+    display: block;
+    margin: 15px auto;         /* centra la imagen */
+    border-radius: 10px;       /* opcional: bordes suaves */
+}
