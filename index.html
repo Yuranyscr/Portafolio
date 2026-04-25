@@ -1,223 +1,235 @@
 <!DOCTYPE html>
 <html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <!-- FUENTE -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
 
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link
-    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-    rel="stylesheet">
-<title>Portafolio | Yuranys Castro</title>
-<link rel="stylesheet" href="src/css/styles.css">
-<link rel="stylesheet" href="src/css/headers.css">
-<link rel="stylesheet" href="src/css/hero.css">
-<link rel="stylesheet" href="src/css/sobre_mi.css">
-<link rel="stylesheet" href="src/css/mascotas.css">
-<link rel="stylesheet" href="src/css/proyecto.css">
-<link rel="stylesheet" href="src/css/contacto.css">
+    <title>Portafolio | Yuranys Castro</title>
+
+ 
+    <link rel="stylesheet" href="src/css/styles.css">
+    <link rel="stylesheet" href="src/css/headers.css">
+    <link rel="stylesheet" href="src/css/hero.css">
+    <link rel="stylesheet" href="src/css/sobre_mi.css">
+    <link rel="stylesheet" href="src/css/proyecto.css">
+    <link rel="stylesheet" href="src/css/contacto.css">
+    <link rel="stylesheet" href="src/css/responsive.css">
+    <link rel="stylesheet" href="src/css/footer.css">
 
 </head>
 
 <body>
-    <!-- Encabezado -->
-    <header class="header_container">
 
-        <!-- Menú de Navegación -->
-        <div class="header_logo">
-            <span>Y</span>
-        </div>
-        <nav class="header_navbar">
-            <ul class="header_navbar_list">
+   <header class="header_container">
 
-                <li><a href="/">Inicio</a><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                        fill="currentColor" class="size-6">
-                        <path
-                            d="M11.47 3.841a.75.75 0 0 1 1.06 0l8.69 8.69a.75.75 0 1 0 1.06-1.061l-8.689-8.69a2.25 2.25 0 0 0-3.182 0l-8.69 8.69a.75.75 0 1 0 1.061 1.06l8.69-8.689Z" />
-                        <path
-                            d="m12 5.432 8.159 8.159c.03.03.06.058.091.086v6.198c0 1.035-.84 1.875-1.875 1.875H15a.75.75 0 0 1-.75-.75v-4.5a.75.75 0 0 0-.75-.75h-3a.75.75 0 0 0-.75.75V21a.75.75 0 0 1-.75.75H5.625a1.875 1.875 0 0 1-1.875-1.875v-6.198a2.29 2.29 0 0 0 .091-.086L12 5.432Z" />
-                    </svg>
-                </li>
-                <li><a href="#Sobremi">Sobre Mí</a> <svg viewBox="0 0 20 20" fill="currentColor" class="size-5">
-                        <path
-                            d="M10 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6ZM3.465 14.493a1.23 1.23 0 0 0 .41 1.412A9.957 9.957 0 0 0 10 18c2.31 0 4.438-.784 6.131-2.1.43-.333.604-.903.408-1.41a7.002 7.002 0 0 0-13.074.003Z" />
-                    </svg><!--<svg xmlns="http://www.w3.org/2000/svg"
-                        viewBox="0 0 20 20" fill="currentColor" class="size-5">-->
-                </li>
-                <li><a href="#proyectos"> Proyectos</a><svg viewBox="0 0 24 24" fill="currentColor" class="size-6">
-                        <path fill-rule="evenodd"
-                            d="M19.5 21a3 3 0 0 0 3-3V9a3 3 0 0 0-3-3h-5.379a.75.75 0 0 1-.53-.22L11.47 3.66A2.25 2.25 0 0 0 9.879 3H4.5a3 3 0 0 0-3 3v12a3 3 0 0 0 3 3h15ZM9 12.75a.75.75 0 0 0 0 1.5h6a.75.75 0 0 0 0-1.5H9Z"
-                            clip-rule="evenodd" />
-                    </svg>
-                </li>
-                <li><a href="#contacto">Contacto</a> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"
-                        fill="currentColor" class="size-5">
-                        <path fill-rule="evenodd"
-                            d="M2 3.5A1.5 1.5 0 0 1 3.5 2h1.148a1.5 1.5 0 0 1 1.465 1.175l.716 3.223a1.5 1.5 0 0 1-1.052 1.767l-.933.267c-.41.117-.643.555-.48.95a11.542 11.542 0 0 0 6.254 6.254c.395.163.833-.07.95-.48l.267-.933a1.5 1.5 0 0 1 1.767-1.052l3.223.716A1.5 1.5 0 0 1 18 15.352V16.5a1.5 1.5 0 0 1-1.5 1.5H15c-1.149 0-2.263-.15-3.326-.43A13.022 13.022 0 0 1 2.43 8.326 13.019 13.019 0 0 1 2 5V3.5Z"
-                            clip-rule="evenodd" />
-                    </svg></li>
-                <li><a href="/src/views/mascotas.html">Mascotas</a><svg xmlns="http://www.w3.org/2000/svg"
-                        viewBox="0 0 24 24" fill="currentColor" class="size-6">
-                        <path fill-rule="evenodd"
-                            d="M12.97 3.97a.75.75 0 0 1 1.06 0l7.5 7.5a.75.75 0 0 1 0 1.06l-7.5 7.5a.75.75 0 1 1-1.06-1.06l6.22-6.22H3a.75.75 0 0 1 0-1.5h16.19l-6.22-6.22a.75.75 0 0 1 0-1.06Z"
-                            clip-rule="evenodd" />
-                    </svg>
-                </li>
-            </ul>
-        </nav>
-    </header>
+    <div class="header_logo">
+        <span>Y</span>
+    </div>
 
+  
+    <div class="menu-toggle" id="menu-toggle">
+        ☰
+    </div>
 
+    <nav class="header_navbar" id="navbar">
+        <ul class="header_navbar_list">
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#sobremi">Sobre mí</a></li>
+            <li><a href="#proyectos">Proyectos</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+            <li><a href="src/views/mascotas.html">Mascotas</a></li>
+        </ul>
+    </nav>
+
+</header>
+    <!-- CONTENIDO PRINCIPAL -->
     <main>
 
+        <!-- HERO -->
         <section class="hero">
-            <article class="hero-description">
-                <span>Bievenido a mi sitio Web</span>
-                <H1>Hola, soy Yuranys, y <br> <span class="color-naranja">Coders de RIWI.</span></H1>
-                <p>Soy tecnóloga en Análisis y Desarrollo de Sistemas de información y apasionada con la tecnología y
-                    con
-                    la visión de convertirme en una Desarrolladora de Software y actualmente hago parte de la coders de
-                    Riwi
-                    para afianzar mis conocimientos.</p>
+            <div class="hero-description">
+                <span>Bienvenido a mi sitio Web</span>
+                <h1>Hola, soy Yuranys<br><span class="color-naranja">Coder de RIWI</span></h1>
+
+                <p>
+                    Soy tecnóloga en ADSI apasionada por la tecnología y enfocada en convertirme 
+                    en desarrolladora de software.
+                </p>
+
                 <div class="botones">
-                    <a href="/public/doc/HV-YURACR.pdf">Descargar CV</a>
-                    <a href="">Contáctame</a>
+                    <a href="#">Descargar CV</a>
+                    <a href="#contacto">Contáctame</a>
                 </div>
+            </div>
 
-
-            </article>
-            <article class="hero-media">
-                <img src="public/img/mifoto.jpeg" alt="Foto de perfil">
-            </article>
-            <!-- Menú sobre Mí-->
-        </section>
-
-
-
-        <section class="contenedor-Sobre-mi">
-            <article class="sobre-mi" id="Sobremi">
-                <h2>Sobre Mí</h2>
-                <div class="perfil-container">
-                    <p>¡Hola! Soy <strong>Yuranys Paola Castro Ruiz</strong> tengo 28 años y soy orgullosamente
-                        tomasina,
-                        nacida en el hermoso municipio llamado Santo Tomás conocido como el pulmón verde del Atlántico.
-                        Me
-                        defino como una mujer carismática, soñadora y sobre todo, altamente
-                        <strong>perseverante</strong>.
-                    </p>
-                    <p>
-                        Mi camino en la tecnología comenzó en 2018 como Tecnóloga en <strong>Análisis y Desarrollo de
-                            Sistemas de Información (SENA)</strong>. Aunque estuve un tiempo alejada del código, hoy veo
-                        en
-                        <strong>Riwi</strong> la oportunidad perfecta para reconectar con mi pasión, reforzar mis
-                        conocimientos y cumplir mi meta.
-                    </p>
-                    <p>
-                        Una de las cosas que amo hacer es estar conectando con la naturaleza. Amo montar a caballo,
-                        disfrutar del sonido de las aves y perderme en la brisa de los atardeceres del campo; es donde
-                        recargo energías para seguir construyendo mi futuro digital.
-                    </p>
-                </div>
-
-            </article>
-
-            <article class="ubicacion-proyecto">
-                <div class="contenedor-titulo">
-                    <h2>Mi Ubicación</h2>
-                    <p>Esta es la ubicación del lugar donde vivo:</p>
-                </div>
-
-                <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29070.558986773325!2d-74.78079758121191!3d10.763285367768498!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef5c56a79d27da1%3A0xcfeaebb9b34cbd82!2sSanto%20Tom%C3%A1s%2C%20Atl%C3%A1ntico%2C%20Colombia!5e1!3m2!1ses!2sus!4v1776174549706!5m2!1ses!2sus"
-                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade" width="100%" height="300" style="border:0;"
-                    allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
-                </iframe>
-
-
-            </article>
-        </section>
-
-
-
-
-        <section class="proyectos-portafolio" id="proyectos">
-
-
-            <div class="grid-proyectos">
-                <article class="puesto">
-                    <h2>Proyectos</h2>
-
-                    <h3>Practicante Frontend - Mangus S.A.S</h3>
-                    <img src="/public/img/mangus.jpg">
-                    <p class="fecha-rol">4 Meses | Desarrollo de Software</p>
-                    <p>Durante mi etapa de prácticas, tuve la oportunidad de sumergirme en el entorno profesional de
-                        <strong>Mangus S.A.S</strong>. Estuve a cargo de tareas específicas en el área de
-                        <strong>Frontend</strong>, donde me asignaron proyectos pequeños en donde fue mi primer paso
-                        para
-                        conocer como se trabaja en un equipo de Desarrolladores.
-                    </p>
-                    <p> A pesar de ser un periodo corto, fue una experiencia enriquecedora que me permitió entender el
-                        ciclo
-                        de vida del software, trabajar con equipos reales y confirmar mi pasión por la creación de
-                        interfaces de usuario.
-                    </p>
-                </article>
-
-                <article class="puesto">
-
-                    <h3>Expectativa de Aprendizaje de una Segunda Lengua</h3>
-                    <img src="/public/img/clepng.png">
-                    <p> Universidad del Atlántico</p>
-                    <p>Uno de mis principales objetivos profesionales es el aprendizaje del idioma inglés, el cual
-                        considero fundamental en el desarrollo de software, ya que permite acceder a documentación
-                        técnica, herramientas globales y oportunidades laborales.
-                    </p>
-                    <p> En el año 2023, tuve la oportunidad de iniciar este proceso formativo en el Centro de Lenguas
-                        Extranjeras (CLE) de la Universidad del Atlántico, con sede en Santo Tomás. Sin embargo, por
-                        motivos personales, me vi en la necesidad de retirarme durante el primer nivel.
-                    </p>
-                    <p> Actualmente, tengo la firme intención de retomar mis estudios y reincorporarme al programa, con
-                        el propósito de fortalecer mis competencias lingüísticas y avanzar en el cumplimiento de mis
-                        metas profesionales. Estoy comprometida con mi crecimiento académico y con adquirir las
-                        habilidades necesarias para destacarme en el ámbito del desarrollo de software
-                    </p>
-                </article>
+            <div class="hero-media">
+                <img src="public/img/mifoto.jpeg" alt="Foto de Yuranys">
             </div>
         </section>
 
+        <!-- SOBRE MÍ -->
+        <section id="sobremi" class="sobre-mi">
+    
+    <div class="sobre-mi-container">
 
+        <!-- TEXTO -->
+        <div class="sobre-mi-info">
+            <h2>Sobre Mí</h2>
 
+            <p>
+                Soy <strong>Yuranys Paola Castro Ruiz</strong>, orgullosamente tomasina.
+                Me considero una persona perseverante, soñadora y apasionada.
+            </p>
 
-        <section id="contacto">
-            <div class="contenedor-contacto">
-            <h2>Contáctanos</h2>
-            <form action="tu_archivo_de_procesamiento.php" method="POST">
+            <p>
+                Inicié en el mundo tech en 2018 con ADSI (SENA) y actualmente continúo mi 
+                formación en <strong>Riwi</strong>.
+            </p>
 
-                <label for="nombre">Nombre:</label><br>
-                <input type="text" id="nombre" name="nombre" required><br><br>
-
-                <label for="email">Correo Electrónico:</label><br>
-                <input type="email" id="email" name="email" required><br><br>
-
-                <label for="mensaje">Mensaje:</label><br>
-                <textarea id="mensaje" name="mensaje" rows="4" cols="30" required></textarea><br><br>
-
-                <input type="submit" value="Enviar Mensaje">
-
-
-            </form>
+            <p>
+                Amo la naturaleza, montar a caballo y disfrutar los atardeceres.
+            </p>
         </div>
-        </section>
+
+        <!-- MAPA -->
+        <div class="sobre-mi-mapa">
+            <h3>Mi Ubicación</h3>
+
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29070.558986773325!2d-74.78079758121191!3d10.763285367768498!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef5c56a79d27da1%3A0xcfeaebb9b34cbd82!2sSanto%20Tom%C3%A1s%2C%20Atl%C3%A1ntico%2C%20Colombia!5e1!3m2!1ses!2sus!4v1776174549706!5m2!1ses!2sus"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade" width="100%" height="300" style="border:0;"
+                    allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </div>
+
+    </div>
+
+</section>
+
+       <section id="proyectos" class="proyectos">
+    <h2 class="proyectos-titulo">Proyectos</h2>
+
+    <div class="grid-proyectos">
+
+        <article class="card-proyecto">
+            <img src="public/img/user-list.png" alt="Sistema de gestión">
+            <h3>Sistema de Gestión de Usuarios</h3>
+            <p>
+                Aplicación web desarrollada para administrar usuarios, roles y permisos 
+                con interfaz moderna y validaciones dinámicas.
+            </p>
+            <span class="tag">HTML | CSS | JS</span>
+        </article>
+
+        <article class="card-proyecto">
+            <img src="public/img/dashboard.png" alt="Dashboard de datos">
+            <h3>Dashboard de Análisis de Datos</h3>
+            <p>
+                Panel interactivo que permite visualizar métricas mediante gráficos 
+                y tablas para facilitar la toma de decisiones.
+            </p>
+            <span class="tag">JavaScript | Chart.js</span>
+        </article>
+
+        <article class="card-proyecto">
+            <img src="public/img/proyectoPortafolio.png" alt="Portafolio web">
+            <h3>Portafolio Personal</h3>
+            <p>
+                Sitio web responsivo donde muestro mis habilidades, proyectos y experiencia 
+                en desarrollo frontend.
+            </p>
+            <span class="tag">HTML | CSS | Responsive</span>
+        </article>
+
+    </div>
+</section>
+
+<section id="contacto" class="contacto">
+
+    <div class="contacto-container">
+
+        <h2 class="contacto-titulo">Contáctame</h2>
+        <p class="contacto-subtitulo">
+            ¿Tienes alguna idea o proyecto? Escríbeme 
+        </p>
+
+        <form class="contacto-form">
+
+            <div class="form-group">
+                <input type="text" placeholder="Nombre" required>
+            </div>
+
+            <div class="form-group">
+                <input type="email" placeholder="Correo electrónico" required>
+            </div>
+
+            <div class="form-group">
+                <input type="text" placeholder="Asunto" required>
+            </div>
+
+            <div class="form-group">
+                <textarea placeholder="Mensaje" rows="5" required></textarea>
+            </div>
+
+            <button type="submit" class="btn-enviar">Enviar mensaje</button>
+
+        </form>
+
+    </div>
+
+</section>
+
 
 
     </main>
-    <!-- 
-    <footer>
-        <p>&copy; 2026 Yuranys Castro -Coders Riwi</p>
-    </footer>
-    -->
-</body>
 
+  <footer class="footer">
+
+    <div class="footer-container">
+
+
+        <div class="footer-brand">
+            <h3>Yuranys Castro</h3>
+            <p>Desarrolladora de Software en formación</p>
+        </div>
+
+        <!-- LINKS -->
+        <div class="footer-links">
+            <h4>Enlaces</h4>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#sobremi">Sobre mí</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </div>
+
+        <!-- REDES -->
+        <div class="footer-social">
+            <h4>Redes</h4>
+            <div class="social-icons">
+                <a href="#">GitHub</a>
+                <a href="#">LinkedIn</a>
+                <a href="#">Correo</a>
+            </div>
+        </div>
+
+    </div>
+
+
+    <div class="footer-bottom">
+        <p>&copy; 2026 Yuranys Castro | Todos los derechos reservados</p>
+    </div>
+
+</footer>
+
+<script src="js/script.js"></script>
+
+</body>
 </html>

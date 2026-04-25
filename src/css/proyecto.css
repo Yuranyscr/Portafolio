@@ -1,18 +1,65 @@
-.grid-proyectos {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr); /* dos columnas */
-    gap: 30px; /* espacio entre columnas */
+
+.proyectos {
+    padding: 80px 20px;
+    background: var(--color-background);
+    text-align: center;
 }
 
-.puesto {
-    padding: 20px;
-    border-radius: 10px;
+.proyectos-titulo {
+    font-size: 2.2rem;
+    color: var(--color-primary);
+    margin-bottom: 40px;
 }
-.puesto img {
-    width: 120px;              /* tamaño del logo */
-    height: 120px;             /* forma cuadrada */
-    object-fit: contain;       /* mantiene proporción sin deformar */
-    display: block;
-    margin: 15px auto;         /* centra la imagen */
-    border-radius: 10px;       /* opcional: bordes suaves */
+
+
+.grid-proyectos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+    max-width: 1100px;
+    margin: auto;
+}
+
+
+.card-proyecto {
+    background: var(--white);
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+    transition: 0.3s;
+}
+
+.card-proyecto:hover {
+    transform: translateY(-8px);
+}
+
+
+.card-proyecto img {
+    width: 100%;
+    height: 160px;
+    object-fit: contain;
+    margin-bottom: 15px;
+}
+
+
+.card-proyecto h3 {
+    margin-bottom: 10px;
+    color: var(--color-primary);
+}
+
+
+.card-proyecto p {
+    font-size: 0.95rem;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+
+.tag {
+    display: inline-block;
+    padding: 5px 12px;
+    background: var(--color-secundary);
+    color: var(--white);
+    border-radius: 20px;
+    font-size: 0.8rem;
 }

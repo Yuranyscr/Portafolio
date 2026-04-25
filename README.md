@@ -1,77 +1,108 @@
- <!-- #PORTAFOLIO WEB- Yuranys Paola Castro Ruiz.
-#Descripción.
-En este proyecto corresponde al desarrollo de la creación de un portafolio web perosonal, usuando el estándar de HTML5 y orientado con respecto a mi perfil  prosefional.Este sitio se evidencia las compentencias técnicas, y experiencias con respecto a mi proyección en cuanto al ambito del Desarrollo de Software  con enfasi durante mis practicas en el área de Frontend que fue una experiencia muy enriquesedora.
+#WEB PORTFOLIO- Yuranys Paola Castro Ruiz.
+Descripción.
+This project involves the development of a personal web portfolio, using the HTML5 standard and tailored to my professional profile. This site showcases my technical skills and experience in the field of Software Development, with a focus on my Frontend internship, which was a very enriching experience.
 
-#Objetivos del proyecto.
-#*Disñar una sitio Web funcional, semantica y accesible.
-*Presentar información personal y profesional de forma estructurada.
-*Integrar contenido de imagen y ubicación geográfica.
-*Aplicar buenas practicas en la organización del codigo Html5
-*Fortalecer habilidades en Desarrollo Wen básico.
+##Project Objectives
 
-#Herramientas Implementadas.
-*Html5
-*Css
-*Google Fonts (Tipografia Poppis)
-*Google Maps Embed API(Visualización de la Ubicación)
+*Design a functional, semantic, and accessible website.
 
-#Estructura del Proyecto
- <!-- 
+*Present personal and professional information in a structured way.
+
+*Integrate image and location content.
+
+*Apply best practices in HTML5 code organization.
+*Strengthen basic Web Development skills.
+
+
+###Tools Implemented
+
+*HTML5
+*CSS
+*Google Fonts (Poppis typeface)
+*Google Maps Embed API (Location Display)
+
+
+Project Structure
+```id
 /Portafolio
-index.html
-/src
-/css
-styles.css
-headers.css
-sobre_mi.css
-/wiens
-sobremi.html
-proyectos.html
-contactos.html
-mascotas.html
+│── index.html
+│
+├── /src
+│   ├── /css
+│   │   ├── styles.css
+│   │   ├── headers.css
+│   │   ├── sobre_mi.css
+│   │
+│   ├── /views
+│   │   ├── sobremi.html
+│   │   ├── proyectos.html
+│   │   ├── contactos.html
+│   │   ├── mascotas.html
+│
+├── /public
+│   ├── /img
+│   │   ├── mifoto.jpeg
+│   │   ├── mangus.jpg
+│   │   ├── clepeng.png
+│
+└── README.md
+```
 
-/public
-/img
-mifoto.jpeg
-mangus.jpg
-clepeng.png
-README.md
 
 
+1. Website Structure
+#The portfolio is organized into the following sections:
 
-Estructura del Sitio Web
-El portafolio se encuentra organizado en las siguientes secciones:
- ---Encabezado---
- Incluye un menú de navegación que permite el acceso a:
- *Inicio
- *Sobre Mi
- *Proyectos.
- *Contactos
- *Mascotas
+Header
 
- ----Seccion Hero--
- Contine:
- *Presentación principal en este caso seria la Bienvenida
- *Nombre e identidad profesional. 
- *Descripción perfil
- *Botones de acción (Descargar CV y contacto)
- *Imagen personal.
- -----Sección Sobre mi----
- Describe:
- *Información personal.
- *Trayectoria.
- *Motivación profesional.
- *Interes persoanles.
+-Includes a navigation menu that allows access to:
 
- ---Sección “Ubicación”----
-Integra un mapa embebido mediante Google Maps, que permite visualizar la ubicación geográfica del municipio de Santo Tomás, Atlántico (Colombia).
+*Home
 
----Sección “Proyectos”-----
-Incluye:
-Experiencia como practicante en Frontend
-Descripción de funciones realizadas
-Reflexión sobre el aprendizaje adquirido
-Expectativas académicas relacionadas con el idioma inglés
+*About Me
+
+*Projects
+
+*Contact
+
+ Hero Section--
+
+Contains:
+
+*Main presentation, in this case, the Welcome message
+
+*Name and professional identity
+
+*Profile description
+
+*Action buttons (Download CV and contact)
+
+*Personal image
+
+ About Me section.
+
+Describe:
+
+*Personal information.
+
+*Career history.
+
+*Professional motivation.
+
+*Personal interests.
+
+ “Location” section.
+Includes an embedded map using Google Maps, which allows you to view the geographic location of the municipality of Santo Tomás, Atlántico (Colombia).
+
+
+“Project” Section
+Includes:
+Experience as a Frontend Intern
+Description of tasks performed
+Reflection on learning acquired
+Academic expectations related to the English language.
+
+Author: Yuranys Castro Ruiz, Coders Riwi 2026.
 
 
   
